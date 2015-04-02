@@ -1,0 +1,163 @@
+
+/* relation svg */
+.node circle {
+	cursor: pointer;
+	fill: #fff;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+path.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}
+
+/* relation float tag style */
+.float-tag-number-attribute {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+.float-tag-attribute-name {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+}
+
+
+
+
+/*  树typeahead编辑框 */
+#doubletreeContainer .typeahead {
+  z-index: 1051;
+  margin-top: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 160px;
+  display: block;
+  text-align: left;
+}
+
+#doubletreeContainer .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+#doubletreeContainer .dropdown-menu ul {
+  overflow: hidden;
+}
+#doubletreeContainer .dropdown-menu li {
+  line-height: 20px;
+  padding: 0 5px 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#doubletreeContainer .dropdown-menu li.active {
+  background: #288df0;
+}
+
+#doubletreeContainer .dropdown-menu li a{
+  color: black;
+}
+#doubletreeContainer .recent-name {
+  color: #288df0;
+  display: none;
+}
+
+#doubletreeContainer ul.typeahead {
+  width: 320px;
+}
+
+
+
+
+/*  树typeahead编辑框 */
+.typeahead {
+  z-index: 1051;
+  margin-top: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 160px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.dropdown-menu ul {
+  overflow: hidden;
+}
+.dropdown-menu li {
+  line-height: 20px;
+  padding: 0 5px 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dropdown-menu li.active {
+  background: #288df0;
+}
+
+.dropdown-menu li a{
+  color: black;
+}
+.recent-name {
+  color: #288df0;
+  display: none;
+}
+
+ul.typeahead {
+  width: 320px;
+}
+
+
